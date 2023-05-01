@@ -177,9 +177,7 @@ function App() {
                 {" "}
                 <GitHubButton link="https://github.com/deepakbp00/" />{" "}
               </div>
-              <div className="div2">
-                <Website link="https://dee-fitnessfreak.netlify.app/" />
-              </div>
+              <div className="div2">{"You are currently Here :)"}</div>
             </div>
           </div>
 
