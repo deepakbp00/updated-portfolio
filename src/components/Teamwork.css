@@ -1,0 +1,52 @@
+svg{
+    width:100%;
+    height:100%;
+}
+
+#drawkit-vector-illustration-team-work-5-u-boylhand{
+    
+    animation: rotate 3s infinite ease-in-out alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+  }
+  #drawkit-vector-illustration-team-work-5-u-girlhand{
+    animation: rotate 5s infinite ease-in-out alternate;
+    transform-origin:bottom;
+    transform-box: fill-box;
+  }
+
+  #drawkit-vector-illustration-team-work-5-u-boyrhand{
+    animation: rotate 6s infinite ease-in-out alternate;
+    transform-origin:bottom;
+    transform-box: fill-box;
+  }
+
+  
+  #drawkit-vector-illustration-team-work-5-u-moon{
+    animation: rotateMoon 6s infinite ease-in-out alternate;
+    transform-origin:bottom;
+    transform-box: fill-box;
+  }
+  #drawkit-vector-illustration-team-work-5-u-boy-paper{
+    animation: rotate 3s infinite ease-in-out alternate;
+    transform-origin:left;
+    transform-box: fill-box;
+  }
+
+@keyframes rotate {
+    0% {
+      transform: rotate(-10deg);
+    }
+    70% {
+      transform: rotate(5deg) ;
+    }
+  }
+
+  @keyframes rotateMoon {
+    0% {
+      transform: rotate(-10deg) scale(1);
+    }
+    70% {
+      transform: rotate(5deg) scale(1.3);
+    }
+  }
